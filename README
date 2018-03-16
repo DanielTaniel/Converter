@@ -1,0 +1,11 @@
+The Selenium script is designed to upload questions from CSVs to the quiz 
+using the wordpress interface. The script expect a url of the quiz 
+interface page for the quiz manager page wrapped in ''
+e.g. $ ./handler.py 'https://cope.kitson-consulting.co.uk/wp-admin/admin.php?page=mlw_quiz_options&quiz_id=12'
+
+The CSV expects answers a strict format as outlined in the .csv files.
+
+Known bugs
+new line characters splitting input into sepparate values
+be careful with ' and " in the CSVs if you are using a ' or " as text delimiter.
+
